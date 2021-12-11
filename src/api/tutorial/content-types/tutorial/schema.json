@@ -41,6 +41,13 @@
       "relation": "manyToOne",
       "target": "api::classroom.classroom",
       "inversedBy": "tutorials"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
