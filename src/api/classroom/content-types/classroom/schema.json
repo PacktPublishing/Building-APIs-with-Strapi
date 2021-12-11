@@ -19,6 +19,12 @@
     },
     "maxStudents": {
       "type": "integer"
+    },
+    "tutorials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tutorial.tutorial",
+      "mappedBy": "classroom"
     }
   }
 }
