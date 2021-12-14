@@ -24,10 +24,7 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "video",
-        "text"
-      ],
+      "enum": ["video", "text"],
       "default": "video"
     },
     "url": {
@@ -36,6 +33,10 @@
     "contents": {
       "type": "text"
     },
+    "summary": {
+      "type": "text",
+      "maxLength": 200
+    },
     "classroom": {
       "type": "relation",
       "relation": "manyToOne",
@@ -43,11 +44,10 @@
       "inversedBy": "tutorials"
     },
     "coverImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
     }
   }
 }
