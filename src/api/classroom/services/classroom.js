@@ -10,14 +10,14 @@ module.exports = createCoreService(
   'api::classroom.classroom',
   ({ strapi }) => ({
     async findTutorials(classroomId) {
-      const test = await strapi.entityService.findMany(
+      const results = await strapi.entityService.findMany(
         'api::tutorial.tutorial',
         {
           filters: { classroom: classroomId },
           populate: ['classroom', 'classroom.manager', 'coverImage'],
         }
       );
-      return test;
+      return results;
     },
   })
 );
