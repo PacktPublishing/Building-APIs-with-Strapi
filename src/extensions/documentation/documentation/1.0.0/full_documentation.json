@@ -14,20 +14,13 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-<<<<<<< HEAD
     "x-generation-date": "2021-12-25T11:04:04.919Z"
-=======
-    "x-generation-date": "2021-12-25T06:43:28.879Z"
->>>>>>> 5cbf7a3... Chapter 8
   },
   "x-strapi-config": {
     "path": "/documentation",
     "showGeneratedFiles": true,
     "generateDefaultResponse": true,
-    "plugins": [
-      "email",
-      "upload"
-    ]
+    "plugins": ["email", "upload"]
   },
   "servers": [
     {
@@ -104,10 +97,7 @@
                                             },
                                             "type": {
                                               "type": "string",
-                                              "enum": [
-                                                "video",
-                                                "text"
-                                              ]
+                                              "enum": ["video", "text"]
                                             },
                                             "url": {
                                               "type": "string"
@@ -1281,9 +1271,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -1310,9 +1298,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -1339,9 +1325,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -1368,9 +1352,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -1397,9 +1379,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -1421,9 +1401,7 @@
             }
           }
         },
-        "tags": [
-          "Classroom"
-        ],
+        "tags": ["Classroom"],
         "parameters": [
           {
             "name": "sort",
@@ -1555,10 +1533,7 @@
                                           },
                                           "type": {
                                             "type": "string",
-                                            "enum": [
-                                              "video",
-                                              "text"
-                                            ]
+                                            "enum": ["video", "text"]
                                           },
                                           "url": {
                                             "type": "string"
@@ -2711,9 +2686,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -2740,9 +2713,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -2769,9 +2740,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -2798,9 +2767,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -2827,9 +2794,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -2851,9 +2816,7 @@
             }
           }
         },
-        "tags": [
-          "Classroom"
-        ],
+        "tags": ["Classroom"],
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -3003,10 +2966,7 @@
                                           },
                                           "type": {
                                             "type": "string",
-                                            "enum": [
-                                              "video",
-                                              "text"
-                                            ]
+                                            "enum": ["video", "text"]
                                           },
                                           "url": {
                                             "type": "string"
@@ -4159,9 +4119,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -4188,9 +4146,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -4217,9 +4173,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -4246,9 +4200,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -4275,9 +4227,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -4299,9 +4249,7 @@
             }
           }
         },
-        "tags": [
-          "Classroom"
-        ],
+        "tags": ["Classroom"],
         "parameters": [
           {
             "name": "id",
@@ -4363,10 +4311,7 @@
                                           },
                                           "type": {
                                             "type": "string",
-                                            "enum": [
-                                              "video",
-                                              "text"
-                                            ]
+                                            "enum": ["video", "text"]
                                           },
                                           "url": {
                                             "type": "string"
@@ -5519,9 +5464,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5548,9 +5491,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5577,9 +5518,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5606,9 +5545,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5635,9 +5572,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5659,9 +5594,7 @@
             }
           }
         },
-        "tags": [
-          "Classroom"
-        ],
+        "tags": ["Classroom"],
         "parameters": [
           {
             "name": "id",
@@ -5791,9 +5724,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5820,9 +5751,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5849,9 +5778,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5878,9 +5805,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5907,9 +5832,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -5931,9 +5854,7 @@
             }
           }
         },
-        "tags": [
-          "Classroom"
-        ],
+        "tags": ["Classroom"],
         "parameters": [
           {
             "name": "id",
@@ -6330,9 +6251,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6359,9 +6278,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6388,9 +6305,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6417,9 +6332,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6446,9 +6359,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6470,9 +6381,7 @@
             }
           }
         },
-        "tags": [
-          "Info"
-        ],
+        "tags": ["Info"],
         "parameters": [
           {
             "name": "sort",
@@ -6914,9 +6823,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6943,9 +6850,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -6972,9 +6877,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7001,9 +6904,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7030,9 +6931,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7054,9 +6953,7 @@
             }
           }
         },
-        "tags": [
-          "Info"
-        ],
+        "tags": ["Info"],
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -7150,9 +7047,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7179,9 +7074,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7208,9 +7101,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7237,9 +7128,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7266,9 +7155,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -7290,9 +7177,7 @@
             }
           }
         },
-        "tags": [
-          "Info"
-        ],
+        "tags": ["Info"],
         "parameters": [],
         "requestBody": {}
       }
@@ -7322,10 +7207,7 @@
                             },
                             "type": {
                               "type": "string",
-                              "enum": [
-                                "video",
-                                "text"
-                              ]
+                              "enum": ["video", "text"]
                             },
                             "url": {
                               "type": "string"
@@ -8844,9 +8726,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -8873,9 +8753,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -8902,9 +8780,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -8931,9 +8807,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -8960,9 +8834,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -8984,9 +8856,7 @@
             }
           }
         },
-        "tags": [
-          "Tutorial"
-        ],
+        "tags": ["Tutorial"],
         "parameters": [
           {
             "name": "id",
@@ -9025,10 +8895,7 @@
                             },
                             "type": {
                               "type": "string",
-                              "enum": [
-                                "video",
-                                "text"
-                              ]
+                              "enum": ["video", "text"]
                             },
                             "url": {
                               "type": "string"
@@ -10547,9 +10414,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10576,9 +10441,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10605,9 +10468,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10634,9 +10495,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10663,9 +10522,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10687,9 +10544,7 @@
             }
           }
         },
-        "tags": [
-          "Tutorial"
-        ],
+        "tags": ["Tutorial"],
         "parameters": [
           {
             "name": "id",
@@ -10719,10 +10574,7 @@
                       },
                       "type": {
                         "type": "string",
-                        "enum": [
-                          "video",
-                          "text"
-                        ]
+                        "enum": ["video", "text"]
                       },
                       "url": {
                         "type": "string"
@@ -10815,9 +10667,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10844,9 +10694,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10873,9 +10721,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10902,9 +10748,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10931,9 +10775,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -10955,9 +10797,7 @@
             }
           }
         },
-        "tags": [
-          "Tutorial"
-        ],
+        "tags": ["Tutorial"],
         "parameters": [
           {
             "name": "id",
@@ -10998,10 +10838,7 @@
                             },
                             "type": {
                               "type": "string",
-                              "enum": [
-                                "video",
-                                "text"
-                              ]
+                              "enum": ["video", "text"]
                             },
                             "url": {
                               "type": "string"
@@ -12520,9 +12357,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12549,9 +12384,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12578,9 +12411,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12607,9 +12438,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12636,9 +12465,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12660,9 +12487,7 @@
             }
           }
         },
-        "tags": [
-          "Tutorial"
-        ],
+        "tags": ["Tutorial"],
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -12726,9 +12551,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12755,9 +12578,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12784,9 +12605,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12813,9 +12632,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12842,9 +12659,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12866,9 +12681,7 @@
             }
           }
         },
-        "tags": [
-          "Email"
-        ],
+        "tags": ["Email"],
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -12929,9 +12742,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12958,9 +12769,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -12987,9 +12796,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13016,9 +12823,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13045,9 +12850,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13069,9 +12872,7 @@
             }
           }
         },
-        "tags": [
-          "Email"
-        ],
+        "tags": ["Email"],
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -13132,9 +12933,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13161,9 +12960,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13190,9 +12987,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13219,9 +13014,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13248,9 +13041,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13272,9 +13063,7 @@
             }
           }
         },
-        "tags": [
-          "Email"
-        ],
+        "tags": ["Email"],
         "parameters": [],
         "requestBody": {}
       }
@@ -13666,9 +13455,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13695,9 +13482,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13724,9 +13509,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13753,9 +13536,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13782,9 +13563,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -13806,9 +13585,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - file"
-        ],
+        "tags": ["Upload - file"],
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -14234,9 +14011,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14263,9 +14038,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14292,9 +14065,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14321,9 +14092,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14350,9 +14119,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14374,9 +14141,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - file"
-        ],
+        "tags": ["Upload - file"],
         "parameters": [],
         "requestBody": {}
       }
@@ -14791,9 +14556,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14820,9 +14583,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14849,9 +14610,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14878,9 +14637,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14907,9 +14664,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -14931,9 +14686,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - file"
-        ],
+        "tags": ["Upload - file"],
         "parameters": [
           {
             "name": "sort",
@@ -15406,9 +15159,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15435,9 +15186,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15464,9 +15213,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15493,9 +15240,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15522,9 +15267,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15546,9 +15289,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - file"
-        ],
+        "tags": ["Upload - file"],
         "parameters": [
           {
             "name": "id",
@@ -15581,9 +15322,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15610,9 +15349,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15639,9 +15376,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15668,9 +15403,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15697,9 +15430,7 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": [
-                    "error"
-                  ],
+                  "required": ["error"],
                   "properties": {
                     "error": {
                       "type": "object",
@@ -15721,9 +15452,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - file"
-        ],
+        "tags": ["Upload - file"],
         "parameters": [
           {
             "name": "id",
