@@ -6,4 +6,8 @@ module.exports = env => ({
       },
     },
   },
+  lms: {
+    enabled: true,
+    resolve: './src/plugins/lms',
+  },
 });
