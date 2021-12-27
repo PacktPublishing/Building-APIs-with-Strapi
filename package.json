@@ -23,6 +23,7 @@
     "@strapi/provider-upload-aws-s3": "^4.0.2",
     "@strapi/strapi": "4.0.2",
     "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2"
   },
   "author": {
