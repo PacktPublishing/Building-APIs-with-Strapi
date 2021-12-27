@@ -36,8 +36,15 @@ const createRoleIfNotExist = async (name, type, description = '') => {
 * @param {*} apiName The name of the API where the controller action lives 
 * @param {*} controller The controller where the action lives 
 * @param {*} action The action itself 
+* @param {*} namespace The namespace either API or plugin, default is API
 */
-const enablePermission = async (type, apiName, controller, action) => {
+const enablePermission = async (
+  type,
+  apiName,
+  controller,
+  action,
+  namespace = 'api'
+) => {
   try {
     // Get the role entity
     const role = await strapi.db
@@ -47,7 +54,7 @@ const enablePermission = async (type, apiName, controller, action) => {
         populate: ['permissions'],
       });
 
-    const actionId = `api::${apiName}.${controller}.${action}`;
+    const actionId = `${namespace}::${apiName}.${controller}.${action}`;
 
     // Get the permissions associated with the role
     const rolePermission = role.permissions.find(
@@ -101,5 +108,16 @@ module.exports = {
     await enablePermission('admin', 'classroom', 'classroom', 'delete');
 
     await enablePermission('public', 'classroom', 'classroom', 'find');
+
+    // For the UI APP
+    await enablePermission('student', 'tutorial', 'tutorial', 'find');
+    await enablePermission('student', 'classroom', 'classroom', 'enroll');
+    await enablePermission(
+      'student',
+      'users-permissions',
+      'user',
+      'find',
+      'plugin'
+    );
   },
 };

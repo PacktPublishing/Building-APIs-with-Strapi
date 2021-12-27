@@ -8,6 +8,11 @@ module.exports = {
         auth: false,
       },
     },
+    {
+      method: 'POST',
+      path: '/enroll/:id',
+      handler: 'classroom.enroll',
+    },
     // {
     //   method: 'POST',
     //   path: '/classrooms/seed',

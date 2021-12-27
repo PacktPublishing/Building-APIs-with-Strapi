@@ -28,6 +28,32 @@ module.exports = createCoreController(
 
       return this.transformResponse(sanitizedResult);
     },
+    /**
+     * Enroll student in class (Used by the React APP)
+     * @param {*} ctx
+     * @returns
+     */
+    async enroll(ctx) {
+      const { params, state } = ctx;
+
+      // Current user
+      const { user } = state;
+
+      // Get the classroom
+      const classroom = await strapi
+        .service('api::classroom.classroom')
+        .findOne(params.id, { populate: '*' });
+
+      const { students = [] } = classroom;
+      if (!students.find(s => s.id === user.id)) {
+        // Add student to the classroom if was not enrolled
+        students.push(user);
+        await strapi
+          .service('api::classroom.classroom')
+          .update(params.id, { data: { students } });
+      }
+      return { message: 'ok' };
+    },
     // async seed(ctx) {
     //   try {
     //     const classroomsPromise = [];
