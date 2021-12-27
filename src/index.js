@@ -99,5 +99,7 @@ module.exports = {
     await enablePermission('admin', 'classroom', 'classroom', 'create');
     await enablePermission('admin', 'classroom', 'classroom', 'update');
     await enablePermission('admin', 'classroom', 'classroom', 'delete');
+
+    await enablePermission('public', 'classroom', 'classroom', 'find');
   },
 };

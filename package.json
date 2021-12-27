@@ -10,9 +10,12 @@
     "strapi": "strapi",
     "db:start": "docker compose -f docker-compose-dev.yml up -d",
     "db:stop": "docker compose -f docker-compose-dev.yml down",
-    "db:logs": "docker logs -f strapi_api"
+    "db:logs": "docker logs -f strapi_api",
+    "test": "jest --forceExit --detectOpenHandles"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "supertest": "^6.1.6"
+  },
   "dependencies": {
     "@strapi/design-system": "^0.0.1-alpha.71",
     "@strapi/plugin-documentation": "4.0.2",
@@ -22,6 +25,7 @@
     "@strapi/provider-email-mailgun": "^4.0.2",
     "@strapi/provider-upload-aws-s3": "^4.0.2",
     "@strapi/strapi": "4.0.2",
+    "jest": "^27.4.5",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2"
@@ -36,5 +40,14 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      ".cache"
+    ],
+    "testEnvironment": "node",
+    "testTimeout": 15000,
+    "globalTeardown": "<rootDir>/tests/cleanup.js"
+  }
 }
