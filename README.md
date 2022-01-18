@@ -26,7 +26,7 @@ git clone https://github.com/PacktPublishing/Building-APIs-with-Strapi.git
 cd Building-APIs-with-Strapi
 ```
 
-3- Crew new branch from `chapter_1`
+3- Create new branch from `chapter_1`
 
 ```shell
 git checkout BRANCH_NAME chapter_1
