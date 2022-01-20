@@ -49,9 +49,9 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1-12     | Node.js 16                          | Windows, Mac OS X, and Linux (Any) |
-| 1-12     | Npm 8                               | Windows, Mac OS X, and Linux (Any) |
-| 1-12     | Yarn 1.22                           | Windows, Mac OS X, and Linux (Any) |
+| 1-11     | Node.js 16                          | Windows, Mac OS X, and Linux (Any) |
+| 1-11     | Npm 8                               | Windows, Mac OS X, and Linux (Any) |
+| 1-11     | Yarn 1.22                           | Windows, Mac OS X, and Linux (Any) |
 
 
 ## Using this repo
