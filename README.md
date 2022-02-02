@@ -1,8 +1,8 @@
-# Building APIs with Strapi
+# Designing Web APIs with Strapi
 
-<a href="https://www.packtpub.com/product/designing-web-apis-with-strapi/9781800560635?utm_source=github&utm_medium=repository&utm_campaign=9781800560635"><img src="https://static.packt-cdn.com/products/9781800560635/cover/smaller" alt="Building APIs with Strapi" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/designing-web-apis-with-strapi/9781800560635?utm_source=github&utm_medium=repository&utm_campaign=9781800560635"><img src="https://static.packt-cdn.com/products/9781800560635/cover/smaller" alt="Designing Web APIs with Strapi" height="256px" align="right"></a>
 
-This is the code repository for [Building APIs with Strapi](https://www.packtpub.com/product/designing-web-apis-with-strapi/9781800560635?utm_source=github&utm_medium=repository&utm_campaign=9781800560635), published by Packt.
+This is the code repository for [Designing Web APIs with Strapi](https://www.packtpub.com/product/designing-web-apis-with-strapi/9781800560635?utm_source=github&utm_medium=repository&utm_campaign=9781800560635), published by Packt.
 
 **Get started with the Strapi headless CMS by building a complete learning management system API**
 
