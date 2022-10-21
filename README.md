@@ -114,3 +114,7 @@ is an experienced, senior full stack developer/software engineer with over 10 ye
 is a senior full stack engineer with over 15 years of experience working in organizations ranging from early-stage start-ups to scale-ups and corporates, in Barcelona, London, and Glasgow, among other places. He’s passionate about teaching coding, especially to groups under-represented in tech, and was one of the co-founders of a coding school for refugees based in Glasgow. He also created, along with Khalid, barmaga.io, a platform for teaching coding in Amharic, Arabic, and Swahili.
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800560635">https://packt.link/free-ebook/9781800560635 </a> </p>
